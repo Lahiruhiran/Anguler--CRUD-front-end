@@ -1,0 +1,20 @@
+<h2>Department List</h2>
+
+<table class= "table table-striped">
+  <thead>
+    <tr>
+      <th>Department NO</th>
+      <th>Department Name</th>
+      <th>Department Description</th>
+    </tr>
+  </thead>
+  <thead>
+    <tr *ngFor ="let department of departments">
+      <td>{{department.id}}</td>
+      <td>{{department.name}}</td>
+      <td>{{department.description}}</td>
+
+    </tr>
+  </thead>
+
+</table>
