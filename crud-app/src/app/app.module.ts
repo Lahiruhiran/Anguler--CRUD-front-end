@@ -7,11 +7,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DepartmentListComponent } from './department-list/department-list.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HomePageComponent } from './home-page/home-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DepartmentListComponent
+    DepartmentListComponent,
+    HomePageComponent
   ],
   imports: [
     BrowserModule,

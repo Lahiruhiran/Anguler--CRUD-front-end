@@ -1,5 +1,26 @@
-<h1>{{title}}</h1>
+
+<nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
+  <ul class = "navbar-nav">
+    <li class = "nav-item">
+      <a routerLink="homepage" routerLinkActive="active" class="nav-link" >Home</a>
+  </li>
+      <li class = "nav-item">
+          <a routerLink="departments" routerLinkActive="active" class="nav-link" >Department List</a>
+      </li>
+      <li class = "nav-item">
+          <a routerLink="create-department" routerLinkActive="active" class="nav-link" >Add Department</a>
+      </li>
+  </ul>
+</nav>
+
+
 <div class="container">
-  <app-department-list></app-department-list>
+  <router-outlet></router-outlet>
 </div>
+
+<footer class = "footer">
+  <div class = "container">
+      <span>All Rights Reserved 2020 @LaraCode</span>
+  </div>
+</footer>
 
